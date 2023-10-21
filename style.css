@@ -1,0 +1,42 @@
+h2{
+    text-align: center;
+    color: blueviolet;
+}
+.container{
+    background-color: #9c96a23d;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px;
+} 
+.content-container{
+    display: flex;
+    justify-content: end;
+}
+
+/* Button modification and style */
+.btn{
+    border-radius: 4px;
+    width: 52px;
+    height: 24px;
+    border: none;
+    font-size: 12px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgba(94, 94, 198, 0.757);
+    color: white;
+    
+}
+/* content style */
+.content-area{
+    background-color: #9a929a00;
+    white-space: pre-wrap;
+    font-family: monospace;
+    font-size: 14px;
+    margin:15px 10px 0 10px;
+    border: 1px solid #ccc;
+    color: gray;
+    border-radius: 10px;
+}
